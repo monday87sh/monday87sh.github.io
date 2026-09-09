@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>莫里秀-莫里秀综艺节目全集与精彩片段回顾</title>
+    <meta name="description" content="莫里秀是一档备受关注的综艺节目，这里提供节目介绍、精彩片段回顾、嘉宾故事分享以及观众热议话题，带你全面了解莫里秀的魅力所在。">
+    <meta name="keywords" content="莫里秀,综艺节目,莫里秀全集,莫里秀精彩片段,娱乐节目,情感调解">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            background-color: #f8f4f0;
+            color: #2c2c2c;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header.site-header {
+            background: linear-gradient(135deg, #1e1e2f 0%, #2d2d44 100%);
+            color: #fff;
+            padding: 18px 0;
+            border-bottom: 4px solid #e8b84b;
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .logo-icon {
+            background: #e8b84b;
+            width: 44px;
+            height: 44px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 800;
+            color: #1e1e2f;
+        }
+        .logo-text {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .logo-text span {
+            color: #e8b84b;
+        }
+        nav.main-nav ul {
+            display: flex;
+            list-style: none;
+            gap: 28px;
+        }
+        nav.main-nav a {
+            color: #ddd;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+            padding: 6px 0;
+            border-bottom: 2px solid transparent;
+        }
+        nav.main-nav a:hover {
+            color: #e8b84b;
+            border-bottom-color: #e8b84b;
+        }
+        .hero {
+            background: #2d2d44;
+            color: #fff;
+            padding: 70px 0 60px;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::after {
+            content: "";
+            position: absolute;
+            right: -100px;
+            top: -100px;
+            width: 350px;
+            height: 350px;
+            background: radial-gradient(circle, rgba(232,184,75,0.25) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 760px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 18px;
+            line-height: 1.2;
+        }
+        .hero h1 em {
+            font-style: normal;
+            color: #e8b84b;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #ccc;
+            margin-bottom: 24px;
+            max-width: 640px;
+        }
+        .hero-badge {
+            display: inline-block;
+            background: rgba(232,184,75,0.2);
+            border: 1px solid #e8b84b;
+            color: #e8b84b;
+            padding: 6px 16px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        .btn-group {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            border-radius: 30px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        .btn-primary {
+            background: #e8b84b;
+            color: #1e1e2f;
+        }
+        .btn-primary:hover {
+            background: #d4a53a;
+            transform: translateY(-2px);
+        }
+        .btn-outline {
+            border: 2px solid #e8b84b;
+            color: #e8b84b;
+        }
+        .btn-outline:hover {
+            background: rgba(232,184,75,0.1);
+        }
+        .section {
+            padding: 60px 0;
+        }
+        .section-alt {
+            background: #fff;
+        }
+        .section-head {
+            text-align: center;
+            margin-bottom: 44px;
+        }
+        .section-head h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1e1e2f;
+            margin-bottom: 8px;
+        }
+        .section-head p {
+            color: #777;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .section-title-border {
+            width: 60px;
+            height: 3px;
+            background: #e8b84b;
+            margin: 14px auto 20px;
+            border-radius: 2px;
+        }
+        .intro-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        .intro-text h2 {
+            font-size: 2rem;
+            margin-bottom: 18px;
+            color: #1e1e2f;
+        }
+        .intro-text p {
+            margin-bottom: 16px;
+            color: #555;
+        }
+        .intro-card {
+            background: #faf6f1;
+            border-radius: 16px;
+            padding: 30px;
+            border-left: 5px solid #e8b84b;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+        }
+        .intro-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+            color: #1e1e2f;
+        }
+        .intro-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .intro-card li {
+            padding: 8px 0;
+            border-bottom: 1px dashed #ddd;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #444;
+        }
+        .intro-card li:last-child {
+            border-bottom: none;
+        }
+        .intro-card li::before {
+            content: "★";
+            color: #e8b84b;
+            font-size: 0.85rem;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 20px;
+        }
+        .feature-item {
+            background: #fff;
+            border-radius: 16px;
+            padding: 30px 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .feature-item:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+        }
+        .feature-icon {
+            width: 56px;
+            height: 56px;
+            background: #1e1e2f;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            color: #e8b84b;
+            margin-bottom: 18px;
+        }
+        .feature-item h3 {
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+        }
+        .feature-item p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        .episode-list {
+            background: #f8f4f0;
+        }
+        .episode-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+        .episode-card {
+            background: #fff;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+            transition: transform 0.3s;
+        }
+        .episode-card:hover {
+            transform: scale(1.02);
+        }
+        .episode-thumb {
+            background: linear-gradient(145deg, #2d2d44, #1e1e2f);
+            height: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #e8b84b;
+            font-size: 2.4rem;
+            font-weight: 700;
+            position: relative;
+        }
+        .episode-thumb .play-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: #fff;
+            backdrop-filter: blur(4px);
+        }
+        .episode-info {
+            padding: 18px;
+        }
+        .episode-info h3 {
+            font-size: 1.1rem;
+            margin-bottom: 6px;
+            color: #1e1e2f;
+        }
+        .episode-meta {
+            display: flex;
+            justify-content: space-between;
+            color: #999;
+            font-size: 0.85rem;
+            margin-top: 8px;
+        }
+        .tag {
+            background: #f0ebe5;
+            color: #8a7a6a;
+            padding: 2px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+        }
+        .faq-section {
+            background: #fff;
+        }
+        .faq-list {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            border: 1px solid #eee;
+            border-radius: 12px;
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .faq-question {
+            background: #fafaf8;
+            padding: 18px 24px;
+            font-weight: 600;
+            font-size: 1.05rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .faq-question:hover {
+            background: #f0ebe5;
+        }
+        .faq-question .arrow {
+            color: #e8b84b;
+            font-size: 1.2rem;
+        }
+        .faq-answer {
+            padding: 0 24px 18px;
+            color: #555;
+            display: block;
+        }
+        .highlight-box {
+            background: #faf6f1;
+            border-radius: 16px;
+            padding: 26px 30px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin: 30px 0;
+            border: 1px solid #eee;
+        }
+        .highlight-box .icon {
+            font-size: 2.5rem;
+            background: #e8b84b;
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        .highlight-box p {
+            color: #444;
+        }
+        .quote-box {
+            background: #2d2d44;
+            color: #f0ebe5;
+            padding: 40px;
+            border-radius: 16px;
+            text-align: center;
+            margin: 40px 0;
+            position: relative;
+        }
+        .quote-box::before {
+            content: "“";
+            font-size: 6rem;
+            color: #e8b84b;
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            opacity: 0.3;
+            font-family: Georgia, serif;
+        }
+        .quote-box p {
+            font-size: 1.2rem;
+            font-style: italic;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+        .quote-author {
+            margin-top: 16px;
+            color: #e8b84b;
+            font-style: normal;
+            font-weight: 600;
+        }
+        footer.site-footer {
+            background: #1e1e2f;
+            color: #aaa;
+            padding: 50px 0 30px;
+            margin-top: 20px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        .footer-brand p {
+            margin-top: 16px;
+            font-size: 0.9rem;
+            line-height: 1.8;
+            max-width: 360px;
+        }
+        .footer-links h4 {
+            color: #fff;
+            margin-bottom: 16px;
+            font-size: 1.1rem;
+        }
+        .footer-links ul {
+            list-style: none;
+        }
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        .footer-links a {
+            color: #aaa;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .footer-links a:hover {
+            color: #e8b84b;
+        }
+        .copyright {
+            border-top: 1px solid #333;
+            padding-top: 24px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #777;
+        }
+        .responsive-nav-toggle {
+            display: none;
+        }
+        @media (max-width: 992px) {
+            .episode-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        @media (max-width: 768px) {
+            nav.main-nav {
+                display: none;
+                width: 100%;
+                margin-top: 15px;
+            }
+            nav.main-nav.active {
+                display: block;
+            }
+            nav.main-nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .responsive-nav-toggle {
+                display: block;
+                background: none;
+                border: 2px solid #e8b84b;
+                color: #e8b84b;
+                padding: 6px 14px;
+                border-radius: 6px;
+                font-size: 1.2rem;
+                cursor: pointer;
+            }
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            .intro-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            .section {
+                padding: 40px 0;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+        }
+        @media (max-width: 576px) {
+            .episode-grid {
+                grid-template-columns: 1fr;
+            }
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+            .container {
+                padding: 0 16px;
+            }
+            .hero {
+                padding: 50px 0 40px;
+            }
+            .btn {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo-area">
+                <div class="logo-icon">M</div>
+                <div class="logo-text">莫里秀<span>.</span></div>
+            </div>
+            <button class="responsive-nav-toggle" id="navToggle">☰</button>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="#intro">节目介绍</a></li>
+                    <li><a href="#episodes">精彩回顾</a></li>
+                    <li><a href="#features">节目特色</a></li>
+                    <li><a href="#faq">常见问题</a></li>
+                    <li><a href="#discussion">热议话题</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">🔥 热门综艺 · 持续更新中</div>
+                <h1>欢迎来到<em>莫里秀</em>的精彩世界</h1>
+                <p>这里汇集了莫里秀节目的经典片段、嘉宾故事、情感话题与观众热议内容。无论你是老观众还是新朋友，都能在这里找到打动人心的瞬间。</p>
+                <div class="btn-group">
+                    <a href="#episodes" class="btn btn-primary">观看精彩片段</a>
+                    <a href="#intro" class="btn btn-outline">了解节目</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="intro">
+        <div class="container">
+            <div class="intro-grid">
+                <div class="intro-text">
+                    <h2>莫里秀是什么？</h2>
+                    <p>莫里秀是一档以情感交流、家庭关系和人际互动为核心内容的综艺节目。节目通过邀请真实嘉宾分享自己的经历与困惑，在主持人和现场观众的互动中，展开坦诚而深入的讨论。</p>
+                    <p>节目名称“莫里秀”本身带有一种轻松、亲切的语调，它并不追求戏剧化的冲突，而是更注重倾听、理解与沟通。每一期节目都像是一次心灵的对话，让观众在别人的故事里看到自己的影子。</p>
+                    <p>自播出以来，莫里秀凭借真实的内容和温暖的气氛，积累了稳定的观众群体。节目中的许多话题，如家庭矛盾、情感选择、代际沟通等，都引发了广泛的社会讨论。</p>
+                </div>
+                <div class="intro-card">
+                    <h3>节目看点</h3>
+                    <ul>
+                        <li>真实嘉宾故事，不设剧本</li>
+                        <li>主持人温暖睿智，引导深度交流</li>
+                        <li>话题贴近生活，引发共鸣</li>
+                        <li>现场观众参与，观点多元碰撞</li>
+                        <li>每期都有专业点评与情感建议</li>
+                        <li>温暖治愈的节目氛围</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section episode-list" id="episodes">
+        <div class="container">
+            <div class="section-head">
+                <h2>精彩节目回顾</h2>
+                <div class="section-title-border"></div>
+                <p>每一期莫里秀都值得细细品味，这里精选了部分讨论度较高的节目主题</p>
+            </div>
+            <div class="episode-grid">
+                <div class="episode-card">
+                    <div class="episode-thumb">
+                        <div class="play-icon">▶</div>
+                    </div>
+                    <div class="episode-info">
+                        <h3>多年老友为何渐行渐远</h3>
+                        <p>两位相识多年的好友因为一次误会产生了隔阂，现场能否解开彼此的心结？</p>
+                        <div class="episode-meta">
+                            <span class="tag">友情</span>
+                            <span>第12期</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="episode-card">
+                    <div class="episode-thumb">
+                        <div class="play-icon">▶</div>
+                    </div>
+                    <div class="episode-info">
+                        <h3>母女之间的理解难题</h3>
+                        <p>母亲与女儿在人生选择上产生了巨大分歧，两代人如何找到沟通的桥梁？</p>
+                        <div class="episode-meta">
+                            <span class="tag">亲情</span>
+                            <span>第18期</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="episode-card">
+                    <div class="episode-thumb">
+                        <div class="play-icon">▶</div>
+                    </div>
+                    <div class="episode-info">
+                        <h3>该不该为了梦想换城市</h3>
+                        <p>面对稳定的工作和遥远的梦想，这位年轻人该如何做出选择？现场嘉宾各有看法。</p>
+                        <div class="episode-meta">
+                            <span class="tag">人生选择</span>
+                            <span>第23期</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="episode-card">
+                    <div class="episode-thumb">
+                        <div class="play-icon">▶</div>
+                    </div>
+                    <div class="episode-info">
+                        <h3>夫妻间那些没说出口的话</h3>
+                        <p>一对夫妻在现场第一次坦诚说出内心的真实想法，气氛令人动容。</p>
+                        <div class="episode-meta">
+                            <span class="tag">婚姻</span>
+                            <span>第27期</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="features">
+        <div class="container">
+            <div class="section-head">
+                <h2>为什么莫里秀如此特别</h2>
+                <div class="section-title-border"></div>
+                <p>不炒作、不煽情，只用真诚的对话打动人心</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">🎙️</div>
+                    <h3>真实故事</h3>
+                    <p>节目邀请的嘉宾来自不同背景，他们讲述的都是自己亲身经历的真实故事，没有刻意编排，只有真诚的分享。</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">💬</div>
+                    <h3>深度对话</h3>
+                    <p>主持人善于引导嘉宾说出内心深处的感受，让对话不止停留在表面，而是触及真正的情感核心。</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">❤️</div>
+                    <h3>温暖治愈</h3>
+                    <p>节目传递的核心价值是理解与包容。即使面对矛盾与分歧，也始终保持着善意和关怀的基调。</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">👥</div>
+                    <h3>多元视角</h3>
+                    <p>现场观众和嘉宾的不同观点让每个话题都得到多角度的讨论，让思考更加立体和全面。</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🧭</div>
+                    <h3>生活启示</h3>
+                    <p>许多观众表示，从莫里秀的节目中获得了处理自己人际关系的灵感，节目带来了切实的启发。</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📺</div>
+                    <h3>轻松氛围</h3>
+                    <p>虽然是情感类节目，但整体氛围并不沉重。主持人偶尔的幽默和现场轻松的音乐，让观看体验十分舒适。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="discussion">
+        <div class="container">
+            <div class="section-head">
+                <h2>观众热议话题</h2>
+                <div class="section-title-border"></div>
+                <p>莫里秀引发的讨论远不止在节目内</p>
+            </div>
+            <div class="highlight-box">
+                <div class="icon">💡</div>
+                <p><strong>近期热议：</strong>“该不该为了家庭放弃个人发展”成为观众讨论最多的主题之一。许多观众在社交平台分享了自己的故事，形成了多元的观点碰撞。</p>
+            </div>
+            <div class="quote-box">
+                <p>莫里秀让我明白，很多时候我们缺少的不是道理，而是一个愿意倾听的人。</p>
+                <div class="quote-author">—— 一位观众留言</div>
+            </div>
+            <div class="highlight-box">
+                <div class="icon">🗣️</div>
+                <p><strong>话题延伸：</strong>节目中的很多案例都被观众延伸到现实生活中去讨论，例如“如何与父母有效沟通”“朋友之间该不该谈钱”等话题，在网络上引发了广泛的二次讨论。</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+        <div class="container">
+            <div class="section-head">
+                <h2>关于莫里秀，你可能想知道</h2>
+                <div class="section-title-border"></div>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        莫里秀是一档什么类型的节目？
+                        <span class="arrow">▾</span>
+                    </div>
+                    <div class="faq-answer">
+                        莫里秀属于情感谈话类综艺节目，内容围绕真实嘉宾的个人经历与情感困惑展开，通过主持人的引导和现场互动，探讨人际关系、家庭矛盾、个人成长等话题。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        在哪里可以观看莫里秀？
+                        <span class="arrow">▾</span>
+                    </div>
+                    <div class="faq-answer">
+                        莫里秀在多个主流视频平台均有播出，你可以通过电视回看或网络视频平台搜索节目名称来观看往期内容。部分平台也会同步更新最新一期节目。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        节目中的嘉宾是真实的吗？
+                        <span class="arrow">▾</span>
+                    </div>
+                    <div class="faq-answer">
+                        是的，节目邀请的嘉宾均为真实人物，他们分享的故事和经历都是自己的亲身经历。节目组在嘉宾筛选和话题准备上做了充分的工作，以保证交流的真实性和深度。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        莫里秀适合哪些观众观看？
+                        <span class="arrow">▾</span>
+                    </div>
+                    <div class="faq-answer">
+                        莫里秀适合所有对人际关系、情感话题感兴趣的观众。无论你是想从别人的故事中获得启发，还是希望找到解决自己困惑的思路，这档节目都能带来有价值的思考。节目整体基调温和，也适合和家人一起观看讨论。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo-area">
+                        <div class="logo-icon">M</div>
+                        <div class="logo-text" style="color:#fff;">莫里秀<span>.</span></div>
+                    </div>
+                    <p>一个专注于情感交流与真实故事的综艺节目信息站。我们致力于为观众提供节目动态、精彩回顾与话题讨论的聚合内容。</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快捷导航</h4>
+                    <ul>
+                        <li><a href="#intro">节目介绍</a></li>
+                        <li><a href="#episodes">精彩回顾</a></li>
+                        <li><a href="#features">节目特色</a></li>
+                        <li><a href="#faq">常见问题</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>相关话题</h4>
+                    <ul>
+                        <li><a href="#discussion">情感沟通</a></li>
+                        <li><a href="#discussion">家庭关系</a></li>
+                        <li><a href="#discussion">个人成长</a></li>
+                        <li><a href="#discussion">人际交往</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2024 莫里秀资讯站 · 本页面为粉丝交流信息页面，仅供参考</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('navToggle').addEventListener('click', function() {
+            var nav = document.getElementById('mainNav');
+            nav.classList.toggle('active');
+        });
+
+        var faqQuestions = document.querySelectorAll('.faq-question');
+        faqQuestions.forEach(function(q) {
+            q.addEventListener('click', function() {
+                var answer = this.nextElementSibling;
+                if (answer.style.display === 'none' || answer.style.display === '') {
+                    answer.style.display = 'block';
+                    this.querySelector('.arrow').textContent = '▴';
+                } else {
+                    answer.style.display = 'none';
+                    this.querySelector('.arrow').textContent = '▾';
+                }
+            });
+            q.nextElementSibling.style.display = 'block';
+        });
+    </script>
+</body>
+</html>
